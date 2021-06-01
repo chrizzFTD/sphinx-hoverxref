@@ -243,8 +243,8 @@ def missing_reference(app, env, node, contnode):
 
         # Remove ``title=`` from HTML tag to avoid showing the title of the
         # reference when hovering, which is a little confusing
-        if 'reftitle' in  newnode:
-            del newnode['reftitle']
+        # if 'reftitle' in  newnode:
+        #     del newnode['reftitle']
 
     return newnode
 
